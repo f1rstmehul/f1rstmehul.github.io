@@ -1,0 +1,143 @@
+baseURL: "https://f1rstmehul.github.io/"
+title: f1rstmehul
+paginate: 5
+theme: papermode
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: f1rstmehul
+  description: "f1rstmehul's blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: f1rstmehul
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "f1rstmehul"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: f1rstmehul
+    subtitle: "Programmer • Amateur Astronomer • Cricketer"
+    imageUrl: "/images/avatar.jpg"
+    imageTitle: Avatar
+    buttons:
+      - name: About
+        url: about
+      - name: Blog
+        url: posts
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: .
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/f1rstmehul"
+    - name: github
+      url: "https://github.com/f1rstmehul"
+    - name: linkedin
+      url: "https://linkedin.com/in/f1rstmehul"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    linkFullImages: true
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #     URL: "https://github.com/f1rstmehul.github.io/content"
+  #     Text: "Suggest Changes" # edit text
+  #     appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+menu:
+  main:
+    # - name: Projects // don't need this for now.
+    #   url: projects/
+    # weight: 2
+    - name: About
+      url: about/
+      weight: 3
+    - name: Blog
+      url: posts/
+      weight: 4
+    # - name: Search // don't need search yet
+    #   url: search/
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
