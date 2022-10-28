@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://f1rstmehul.github.io/about/</loc>
+    <loc>https://f1rstmehul.github.io/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://f1rstmehul.github.io/aboutme/</loc>
+    <loc>https://f1rstmehul.github.io/posts/integer_overflow/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://f1rstmehul.github.io/posts/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://f1rstmehul.github.io/about/</loc>
   </url><url>
     <loc>https://f1rstmehul.github.io/archives/</loc>
   </url><url>
     <loc>https://f1rstmehul.github.io/categories/</loc>
-  </url><url>
-    <loc>https://f1rstmehul.github.io/</loc>
-  </url><url>
-    <loc>https://f1rstmehul.github.io/posts/</loc>
   </url><url>
     <loc>https://f1rstmehul.github.io/projects/</loc>
   </url><url>
