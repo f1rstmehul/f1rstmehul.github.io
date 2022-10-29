@@ -13,8 +13,8 @@ author: f1rstmehul
 
 | sign     | size                          |
 | -------- | ----------------------------- |
-| signed   | uint8, uint16, uint32, uint64 |
-| unsigned | int8, int16, int32, int64     |
+| unsigned | uint8, uint16, uint32, uint64 |
+| signed   | int8, int16, int32, int64     |
 
 for a variable like `uint8` and `int8` compiler allocates an 8-bit address register and a 32-bit register for `uint32` and `int32`.
 
