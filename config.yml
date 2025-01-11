@@ -57,7 +57,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: f1rstmehul
-    subtitle: "Programmer • Amateur Astronomer • Cricketer"
+    subtitle: "software engineer • cricketer"
     imageUrl: "/images/avatar.jpg"
     imageTitle: Avatar
     buttons:
